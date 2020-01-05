@@ -18,7 +18,6 @@ public class ReverseAnInt{
 
         int num = 23406780;
         reverseInteger(num);
-        System.out.println();
 
     }
 }
