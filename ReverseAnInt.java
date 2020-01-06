@@ -8,7 +8,7 @@ public class ReverseAnInt{
         else{
             int rev = n % 10;
             System.out.print(rev);
-            int temp_n = (int) n / 10;
+            int temp_n =  n / 10;
             reverseInteger(temp_n);
         }
         
