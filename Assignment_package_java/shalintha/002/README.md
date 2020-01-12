@@ -1,5 +1,6 @@
 
-### /002$ **javac -d ./ ./A/Application.java**
+# README
+/002$ **javac -d ./ ./A/Application.java**
 
-### /002$ **java A.Application**
-### *Hello Java*
+/002$ **java A.Application**
+*Hello Java*
