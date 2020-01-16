@@ -5,7 +5,7 @@ class MyException extends Exception{
 }
 
 public class MyExceptionEg{
-    static void validate(int age) throws MyException{
+    static void checkAge(int age) throws MyException{
         if(age < 18){
             throw new MyException("Not valid");
         }
@@ -17,9 +17,9 @@ public class MyExceptionEg{
 
     public static void main(String[] args) {
         try {
-            validate(16);
+            checkAge(16);
         } catch (Exception e) {
-            System.out.println("Exception : " + e);
+            System.out.println(e);
         }
     }
 }
