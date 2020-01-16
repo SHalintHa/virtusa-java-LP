@@ -18,7 +18,7 @@ class PrintStar{
                 System.out.print(" ");
             }
 
-            for(int j = 10; j > 1;j--){
+            for(int j = 10-k; j > 1;j--){
                 System.out.print("*");
             }
             System.out.println();
