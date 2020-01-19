@@ -21,6 +21,7 @@ class JohnClass{
                 break;
                 
             }
+            scanner.close();
 
 
     }
