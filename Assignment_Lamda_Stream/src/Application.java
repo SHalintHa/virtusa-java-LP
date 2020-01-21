@@ -10,7 +10,7 @@ public class Application {
 
     public static void main(String[] args) {
 
-        
+
         Map<String, Integer> studentMap = new HashMap();
 
         studentMap.put("John", 90);
