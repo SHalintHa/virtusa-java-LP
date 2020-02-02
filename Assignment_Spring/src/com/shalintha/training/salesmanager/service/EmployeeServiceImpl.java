@@ -8,7 +8,13 @@ import com.shalintha.training.salesmanager.repository.HibernateEmployeeRepositor
 
 public class EmployeeServiceImpl implements EmployeeService {
 	
-	EmployeeRepository employeeRepository = new HibernateEmployeeRepositoryImpl();
+//	EmployeeRepository employeeRepository = new HibernateEmployeeRepositoryImpl();
+	
+	private EmployeeRepository employeeRepository;
+	
+	public void setEmployeeRepository(EmployeeRepository employeeRepository) {
+		this.employeeRepository = employeeRepository;
+	}
 	
 	public List<Employee> getAllEmployees(){
 		return employeeRepository.getAllEmployees();		

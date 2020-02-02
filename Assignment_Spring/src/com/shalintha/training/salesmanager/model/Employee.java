@@ -2,8 +2,8 @@ package com.shalintha.training.salesmanager.model;
 
 public class Employee {
 	
-	String employeeName;
-	String employeeLocation;
+	private String employeeName;
+	private String employeeLocation;
 	
 	
 	public String getEmployeeName() {
