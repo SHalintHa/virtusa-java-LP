@@ -8,7 +8,14 @@ import java.util.List;
 
 public class EmployeeServiceImpl implements EmployeeService {
 
-    EmployeeRepository employeeRepository = new HibernateEmployeeRepositoryImpl();
+	
+	EmployeeRepository employeeRepository;
+    //EmployeeRepository employeeRepository = new HibernateEmployeeRepositoryImpl();
+	
+	public void setEmployeeRepository(EmployeeRepository employeeRepository) {
+		
+		this.employeeRepository = employeeRepository;
+	}
 
     @Override
     public List<Employee> getAllEmployees(){
